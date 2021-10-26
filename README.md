@@ -11,4 +11,9 @@ The Flask app will run, as right now the data being displayed is from data I cop
 
 Since I was unable to call the API due to the restricted access, I decided to test the program with the data I found in the docs. The data is what I used to test the logic of my app.
 
+In order to test it on the api, in line 72 replace "data" with "response" and then run the pro
+
 To run the code, you need to download the file app.py, and then simply run the program. The Flask will open up and display if the customer needs to be asked more questions. 
+
+Next Steps:
+  What I would like to do is build out a user interface that could be used to manually input into the API. Since the whole purpose of the exercise is to deterine if the customer should be asked an extra question or not. Also, since Hometap is a Django heavy company, I would like to remake this in Django, in order to get the program integrated with the site. Since knowing what kind of septic tank exists is pretty important, it would be a valuable thing to know. 
