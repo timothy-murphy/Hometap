@@ -7,4 +7,8 @@ I then called the API with the get request in order to get data from the API. I 
 Once I get the sewer data, I simply passed the returned data to a variable. If the variable is equaled to "Septic", then the Flask app outputs "ask user for another question. If it does not equal Septic, then it returns "No more information needed". 
 
 
-To run the code, you need to download the file app.py, and then simply run the program. The Flask app will run, as right now the data being displayed is from data I copied and pasted in from the docs on the api. 
+The Flask app will run, as right now the data being displayed is from data I copied and pasted in from the docs on the api. 
+
+Since I was unable to call the API due to the restricted access, I decided to test the program with the data I found in the docs. The data is what I used to test the logic of my app.
+
+To run the code, you need to download the file app.py, and then simply run the program. The Flask will open up and display if the customer needs to be asked more questions. 
